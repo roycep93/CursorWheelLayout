@@ -12,7 +12,7 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.graphics.Region;
 import android.os.Build;
-import android.support.annotation.ColorInt;
+//import android.support.annotation.ColorInt;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -20,6 +20,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+
+import androidx.annotation.ColorInt;
 
 
 /**
