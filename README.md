@@ -8,7 +8,7 @@ You can also receive a callback for when an item is clicked, and whether it is s
 
 ## Screenshot
 ![1]
-![2]
+![3]
 ## Apk
 
 [Download Demo here](https://github.com/BCsl/CursorWheelLayout/tree/master/demo/wheel-v1.01.apk)
@@ -123,3 +123,4 @@ http://apache.org/licenses/LICENSE-2.0.txt
 
 [1]: ./screenshot/gif2.gif
 [2]: ./screenshot/gif3.gif
+[3]: ./screenshot/device-2020-02-16-182428.png
