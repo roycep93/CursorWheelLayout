@@ -1,11 +1,11 @@
-package github.hellocsl.cursorwheellayout.widget;
+package com.azspingame.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
 import github.hellocsl.cursorwheel.CursorWheelLayout;
-import github.hellocsl.cursorwheellayout.R;
+import com.azspingame.R;
 
 /**
  *

@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout;
+package com.azspingame;
 
 import org.junit.Test;
 

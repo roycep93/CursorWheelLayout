@@ -46,7 +46,7 @@ You can also receive a callback for when an item is clicked, and whether it is s
         app:wheelFlingValue="460"
         app:wheelSelectedAngle="225">
 
-        <github.hellocsl.cursorwheellayout.widget.SwitchButton
+        <com.azspingame.widget.SwitchButton
             android:id="@id/id_wheel_menu_center_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

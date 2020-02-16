@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout.data;
+package com.azspingame.data;
 
 /**
  * describe the menu item

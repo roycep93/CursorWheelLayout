@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4C3C4952"
-    tools:context="github.hellocsl.cursorwheellayout.MainActivity">
+    tools:context="com.azspingame.com.azspingame.MainActivity">
 
 
-    <github.hellocsl.cursorwheellayout.widget.SimpleTextCursorWheelLayout
+    <com.azspingame.widget.SimpleTextCursorWheelLayout
         android:id="@+id/test_circle_menu_left"
         android:layout_width="306dip"
         android:layout_height="306dip"
@@ -18,14 +18,14 @@
         app:wheelItemRotateMode="outward"
         app:wheelSelectedAngle="0">
 
-        <github.hellocsl.cursorwheellayout.widget.SwitchButton
+        <com.azspingame.widget.SwitchButton
             android:id="@id/id_wheel_menu_center_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:boardWidth="0dip"
             app:uncheckRevealColor="#ff2a2f36"
         />
-    </github.hellocsl.cursorwheellayout.widget.SimpleTextCursorWheelLayout>
+    </com.azspingame.widget.SimpleTextCursorWheelLayout>
 
     <github.hellocsl.cursorwheel.CursorWheelLayout
         android:id="@+id/test_circle_menu_top"
@@ -48,7 +48,7 @@
         />
     </github.hellocsl.cursorwheel.CursorWheelLayout>
 
-    <github.hellocsl.cursorwheellayout.widget.SimpleTextCursorWheelLayout
+    <com.azspingame.widget.SimpleTextCursorWheelLayout
         android:id="@+id/test_circle_menu_right"
         android:layout_width="306dip"
         android:layout_height="306dip"
@@ -62,14 +62,14 @@
         app:wheelItemRotateMode="inward"
         app:wheelSelectedAngle="225">
 
-        <github.hellocsl.cursorwheellayout.widget.SwitchButton
+        <com.azspingame.widget.SwitchButton
             android:id="@id/id_wheel_menu_center_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:boardWidth="0dip"
             app:uncheckRevealColor="#ff2a2f36"
         />
-    </github.hellocsl.cursorwheellayout.widget.SimpleTextCursorWheelLayout>
+    </com.azspingame.widget.SimpleTextCursorWheelLayout>
 
     <Button android:id="@+id/main_button_random_selected"
             style="@style/TextAppearance.AppCompat.Title"

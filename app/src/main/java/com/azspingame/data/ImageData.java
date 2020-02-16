@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout.data;
+package com.azspingame.data;
 
 /**
  * Created by chensuilun on 16/4/24.

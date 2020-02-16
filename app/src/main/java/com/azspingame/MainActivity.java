@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout;
+package com.azspingame;
 
 import android.os.Bundle;
 import android.view.Gravity;
@@ -16,11 +16,13 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import github.hellocsl.cursorwheel.CursorWheelLayout;
-import github.hellocsl.cursorwheellayout.adapter.SimpleImageAdapter;
-import github.hellocsl.cursorwheellayout.adapter.SimpleTextAdapter;
-import github.hellocsl.cursorwheellayout.data.ImageData;
-import github.hellocsl.cursorwheellayout.data.MenuItemData;
-import github.hellocsl.cursorwheellayout.widget.SimpleTextCursorWheelLayout;
+import com.azspingame.R;
+
+import com.azspingame.adapter.SimpleImageAdapter;
+import com.azspingame.adapter.SimpleTextAdapter;
+import com.azspingame.data.ImageData;
+import com.azspingame.data.MenuItemData;
+import com.azspingame.widget.SimpleTextCursorWheelLayout;
 
 public class MainActivity extends AppCompatActivity implements CursorWheelLayout.OnMenuSelectedListener {
 

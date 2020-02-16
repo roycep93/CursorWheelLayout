@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout.adapter;
+package com.azspingame.adapter;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -13,8 +13,8 @@ import androidx.core.app.ActivityCompat;
 import java.util.List;
 
 import github.hellocsl.cursorwheel.CursorWheelLayout;
-import github.hellocsl.cursorwheellayout.R;
-import github.hellocsl.cursorwheellayout.data.MenuItemData;
+import com.azspingame.R;
+import com.azspingame.data.MenuItemData;
 
 /**
  * Created by chensuilun on 16/4/24.

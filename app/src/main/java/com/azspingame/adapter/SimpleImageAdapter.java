@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout.adapter;
+package com.azspingame.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import java.util.List;
 
 import github.hellocsl.cursorwheel.CursorWheelLayout;
-import github.hellocsl.cursorwheellayout.R;
-import github.hellocsl.cursorwheellayout.data.ImageData;
+import com.azspingame.R;
+import com.azspingame.data.ImageData;
 
 /**
  * Created by chensuilun on 16/4/24.

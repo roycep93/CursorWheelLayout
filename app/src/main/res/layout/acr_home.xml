@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:layout_gravity="center"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/wheel_top_background"
+        >
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wheel_back_button"
+            android:layout_margin="13dp"
+            />
+        <TextView
+            android:id="@+id/tvTagTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivBack"
+            android:text="Total iludate coins"
+            android:textSize="16dp"
+            android:textColor="#efff"
+            android:gravity="center_vertical"
+            android:layout_marginTop="26dp"
+            />
+        <TextView
+            android:id="@+id/tvTotalCoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivBack"
+            android:layout_below="@+id/tvTagTotal"
+            android:text="5620"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/wheel_icon_coins"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginTop="6dp"
+            />
+        <TextView
+            android:id="@+id/tvCoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/wheel_todaywin_background"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="5dp"
+            android:text="50"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/tvJackpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/tvCoins"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/wheel_jackpot_background"
+            android:layout_margin="16dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="5dp"
+            android:text="500"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/home_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="360dp">
+
+        <ve.com.abicelis.prizewheellib.PrizeWheelView
+            android:id="@+id/home_prize_wheel_view"
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/wheel_frame"
+
+            android:padding="8dp" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/wheel_spinner_pointer"
+            android:rotation="225"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wheel_frame_shadow"
+            />
+
+        <View
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingStart="24dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:paddingEnd="8dp"
+        android:layout_gravity="bottom|center_horizontal"
+        >
+        <Button
+            android:id="@+id/stop_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_wheel"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <ImageView
+            android:id="@+id/fling_wheel_cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/btn_press_unpress"
+            />
+
+        <Button
+            android:id="@+id/fling_wheel_cw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@id/fling_wheel_cc"
+            android:layout_toLeftOf="@id/fling_wheel_cc"
+            android:visibility="gone"
+            android:text="@string/fling_wheel_cw"/>
+    </RelativeLayout>
+
+</FrameLayout>

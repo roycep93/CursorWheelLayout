@@ -1,4 +1,4 @@
-package github.hellocsl.cursorwheellayout.widget;
+package com.azspingame.widget;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
@@ -17,7 +17,7 @@ import android.view.View;
 
 import androidx.annotation.ColorInt;
 
-import github.hellocsl.cursorwheellayout.R;
+import com.azspingame.R;
 
 
 /**
